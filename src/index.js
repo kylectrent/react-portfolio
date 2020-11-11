@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import './assets/fonts/MrGrieves-Regular.otf';
+import './assets/fonts/Colus-Regular.otf';
+import './assets/fonts/Berton-Roman-trial.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

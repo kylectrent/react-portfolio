@@ -4,6 +4,7 @@ import Projects from './pages/projects/projects';
 import About from './pages/about/about';
 import Header from './components/header/header.component';
 import Home from './pages/home/home';
+import AspNet from './pages/aspnet/aspnet';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
+            <Route path="/aspnet" component={AspNet} />
           </Switch>
         </div>
       </div>

@@ -12,3 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'MrGrieves-Regular';
+  src: local('MrGrieves-Regular'), url(./assets/fonts/MrGrieves-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Colus-Regular';
+  src: local('Colus-Regular'), url(./assets/fonts/Colus-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Berton-Roman-trial';
+  src: local('Berton-Roman-trial'), url(./assets/fonts/Berton-Roman-trial.ttf) format('truetype');
+}

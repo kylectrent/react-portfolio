@@ -1,13 +1,28 @@
-.content-block{
+.content-block {
     padding: 20px;
     margin: 10px;
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 450px;
+    max-height: 450px;
     display: flex;
+    flex-direction: column;
     border: rgba(88, 84, 153, 0.5) 2px solid;
 
-    div {
-        padding-right: 15px;
-        max-width: 300px;
+    h3 {
+        color: rgba(0, 123, 255, .6);
+        font-family: Colus-Regular;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+    .content-block-body{
+        display: flex;
+
+        p {
+            padding-right: 10px;
+            align-self: center;
+            font-family: Berton-Roman-trial;
+            font-weight: 400;
+            font-size: 17px;
+        }
+
     }
 }

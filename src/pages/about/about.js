@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from 'react-bootstrap';
+import { Modal, Row, Container } from 'react-bootstrap';
 import ContentBlock from '../../components/content-block/content-block.component'
 import './about.styles.scss'
 
@@ -14,46 +14,43 @@ class About extends React.Component {
     };
     render() {
         return (
-            <div className="about-page">
-                 <ContentBlock title="Kyle Trent, Software Developer"
-                    description="Welcome to my website! My name is Kyle Trent, and I am a software developer. The technologies I am most familier 
-                    with are C#, and full stack web development!">
-                    <img src={require('../../assets/kyle-trent.jpg')} alt="Kyle Trent" />
-                </ContentBlock>
-                <ContentBlock title="My Up to Date Resume"
-                    description="Click on the image of my Resume to get a closer look at my experience, education, skills,
-                        accredations and more!">
-                        <img className="resume" src={require("../../assets/Resume.PNG")} alt="Kyle's Resume" onClick={this.showModal} />
-                        <Modal show={this.state.show} onHide={this.showModal} size="lg">
-                            <Modal.Header closeButton>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <div className="iframe-container">
-                                    <iframe title="Resume PDF" src={require("../../assets/resume.pdf")} alt="Kyle's Resume" />
+            <div>
+                <Container className="about-page">
+                    <Row>
+                            <ContentBlock title="Software Developer, BS"
+                                description="Welcome to my website! My name is Kyle Trent, I am a software developer. The technologies I am most familier 
+                                    with are C#, and full stack web development.">
+                                <img src={require('../../assets/kyle-trent.jpg')} alt="Kyle Trent" />
+                            </ContentBlock>
+                            <ContentBlock title="Skills and Experience"
+                                description="I utilize many technologies daily to develop software, both professionally and for fun! Click my resume to view it.">
+                                <img className="resume" src={require("../../assets/Resume.PNG")} alt="Kyle's Resume" onClick={this.showModal} />
+                                <Modal show={this.state.show} onHide={this.showModal} size="lg">
+                                    <Modal.Header closeButton>
+                                    </Modal.Header>
+                                    <Modal.Body>
+                                        <div className="iframe-container">
+                                            <iframe title="Resume PDF" src={require("../../assets/resume.pdf")} alt="Kyle's Resume" />
+                                        </div>
+                                    </Modal.Body>
+                                </Modal>
+                            </ContentBlock>
+                    </Row>
+                    <Row>
+                            <a href="https://github.com/kylectrent" target="_blank" rel="noopener noreferrer">
+                                <div className="github">
+                                    <img src={require('../../assets/github.jpeg')} alt="GitHub" />
+                                    <p style={{ textAlign: "center" }}>GitHub</p>
                                 </div>
-                            </Modal.Body>
-                        </Modal>
-                </ContentBlock>
-                <ContentBlock title="My GitHub" 
-                    description="Go check out my github, where I work on existing projects and upload my own! Click on the 
-                        thumbnail to visit my github page.">
-                   <a href="https://github.com/kylectrent" target="_blank" rel="noopener noreferrer">
-                       <div className="github">
-                            <img src={require('../../assets/github.jpeg')} alt="GitHub" />
-                            <p style={{textAlign:"center"}}>Click Here to Navigate to my GitHub</p>
-                       </div>
-                   </a>
-                </ContentBlock>
-                <ContentBlock title="My LinkedIn" 
-                    description="Go check out my LinkedIn where you can view testimonials from co workers as well as other 
-                        professional information about me!">
-                    <a href="https://www.linkedin.com/in/kylectrent" target="_blank" rel="noopener noreferrer">
-                        <div className="github" >
-                            <img src={require('../../assets/linkedin.webp')} alt="LinkedIn" />
-                            <p style={{textAlign:"center"}}>Click Here to Navigate to my LinkedIn</p>
-                        </div>
-                   </a>
-                </ContentBlock>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kylectrent" target="_blank" rel="noopener noreferrer">
+                                <div className="github" >
+                                    <img src={require('../../assets/linkedin.webp')} alt="LinkedIn" />
+                                    <p style={{ textAlign: "center" }}>LinkedIn</p>
+                                </div>
+                            </a>
+                    </Row>
+                </Container>
             </div>
         );
     }
