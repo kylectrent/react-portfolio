@@ -1,0 +1,18 @@
+.project-page {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        color: rgba(0, 123, 255, .6);
+        font-family: Colus-Regular;
+        font-weight: 700;
+        font-size: 4em;
+    }
+
+    ul {
+        padding: 10px;
+        font-family: Berton-Roman-trial;
+        font-weight: 400;
+        font-size: 25px;
+    }
+}

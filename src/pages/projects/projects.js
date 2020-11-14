@@ -13,22 +13,22 @@ function Projects(props) {
             </ContentBlock>
             <ContentBlock title="Construction Advocates" 
                 description="Bootstrap made website with some customization">
-                <Thumbnail link="" image= {require('../../assets/construction-watchdogs.PNG')} title="CSS and HTML Project" 
+                <Thumbnail link="/constructionadvocates" image= {require('../../assets/construction-watchdogs.PNG')} title="CSS and HTML Project" 
                     category="A website promoting a business associated with law practice" />
             </ContentBlock>
             <ContentBlock title="DragonChain Mobile App" 
                 description="Cross platform, developed with Flutter programming language combined with the dart repository">
-                <Thumbnail link="" image={require('../../assets/dragonchain.png')} title="Mobile Development" 
+                <Thumbnail link="/dragonchain" image={require('../../assets/dragonchain.png')} title="Mobile Development" 
                     category="Skeleton mobile version of an existing forum" />
             </ContentBlock>
             <ContentBlock title="UWP Automation" 
                 description="C# application utilizing Appium to read JSON scripts designed to automate UWP applications">
-                <Thumbnail link="" image={require('../../assets/automation.jpg')} title="Automation for Testing" 
+                <Thumbnail link="/uwpautomation" image={require('../../assets/automation.jpg')} title="Automation for Testing" 
                     category="Used to aid the manual testing of applications" />
             </ContentBlock>
             <ContentBlock title="SDOT Permits Conversion" 
                 description="Utilized Python and the Kivy framework, packaged into Windows .exe">
-                <Thumbnail link="" image={require('../../assets/sdot.png')} title="Automation for Manual Conversion" 
+                <Thumbnail link="/sdotpermits" image={require('../../assets/sdot.png')} title="Automation for Manual Conversion" 
                     category="Accelerated conversion of permit data with new solution" />       
             </ContentBlock>
         </>

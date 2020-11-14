@@ -4,7 +4,7 @@ import Projects from './pages/projects/projects';
 import About from './pages/about/about';
 import Header from './components/header/header.component';
 import Home from './pages/home/home';
-import AspNet from './pages/aspnet/aspnet';
+import AspNet, {ConstructionAdvocates, DragonChain, UWPAutomation, SDOTPermits} from './pages/project-components/project-components';
 import './App.css';
 
 function App() {
@@ -18,6 +18,10 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/aspnet" component={AspNet} />
+            <Route path="/constructionadvocates" component={ConstructionAdvocates} />
+            <Route path="/dragonchain" component={DragonChain} />
+            <Route path="/uwpautomation" component={UWPAutomation} />
+            <Route path="/sdotpermits" component={SDOTPermits} />
           </Switch>
         </div>
       </div>
