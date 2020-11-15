@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.10870397.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.07645d35.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.07645d35.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/react-portfolio/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.1e6ae17c.chunk.js": "/react-portfolio/static/js/2.1e6ae17c.chunk.js",
+    "static/js/2.1e6ae17c.chunk.js.map": "/react-portfolio/static/js/2.1e6ae17c.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.28a8e586170ae83dbd42d4f479850dc7.js": "/react-portfolio/precache-manifest.28a8e586170ae83dbd42d4f479850dc7.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/react-portfolio/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.10870397.chunk.css.map": "/react-portfolio/static/css/main.10870397.chunk.css.map",
+    "static/js/2.1e6ae17c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.1e6ae17c.chunk.js.LICENSE.txt",
+    "static/media/Berton-Roman-trial.ttf": "/react-portfolio/static/media/Berton-Roman-trial.11b79737.ttf",
+    "static/media/Colus-Regular.otf": "/react-portfolio/static/media/Colus-Regular.c7836b03.otf",
+    "static/media/MrGrieves-Regular.otf": "/react-portfolio/static/media/MrGrieves-Regular.d0e076ae.otf",
+    "static/media/Resume.PNG": "/react-portfolio/static/media/Resume.258bc11c.PNG",
+    "static/media/aspnet.png": "/react-portfolio/static/media/aspnet.4f548f56.png",
+    "static/media/automation.jpg": "/react-portfolio/static/media/automation.9c4c6442.jpg",
+    "static/media/construction-watchdogs.PNG": "/react-portfolio/static/media/construction-watchdogs.74992baa.PNG",
+    "static/media/construction-watchdogs2.PNG": "/react-portfolio/static/media/construction-watchdogs2.531217f1.PNG",
+    "static/media/den.PNG": "/react-portfolio/static/media/den.ac200e39.PNG",
+    "static/media/github.jpeg": "/react-portfolio/static/media/github.28ff7e19.jpeg",
+    "static/media/kyle-trent.jpg": "/react-portfolio/static/media/kyle-trent.470d46c4.jpg",
+    "static/media/linkedin.jpeg": "/react-portfolio/static/media/linkedin.1321ea1e.jpeg",
+    "static/media/portfolio-svgrepo-com.svg": "/react-portfolio/static/media/portfolio-svgrepo-com.a54ea73c.svg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.eb0ab01b.pdf",
+    "static/media/sdot.png": "/react-portfolio/static/media/sdot.9ff6f563.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/css/2.6414bb7b.chunk.css",
+    "static/js/2.1e6ae17c.chunk.js",
+    "static/css/main.10870397.chunk.css",
+    "static/js/main.07645d35.chunk.js"
+  ]
+}
