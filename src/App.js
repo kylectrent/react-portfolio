@@ -14,7 +14,7 @@ function App() {
         <Header />
         <div className="main-content p-3">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route path="/react-portfolio" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/aspnet" component={AspNet} />
