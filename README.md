@@ -1,2 +1,2 @@
 # react-portfolio
-I need to show my website here
+Simple React UI to display my portfolio
