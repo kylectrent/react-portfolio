@@ -4,8 +4,14 @@ import './home.styles.scss';
 
 class Home extends React.Component {
     componentDidMount() {
-        var textWrapper = document.querySelector('.home-text .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        var lettersContainer = document.getElementsByClassName("letters");
+        lettersContainer[0].style.minWidth = this.container1.offsetWidth + "px";
+        lettersContainer[1].style.minWidth = this.container2.offsetWidth + "px";
+        lettersContainer[2].style.minWidth = this.container3.offsetWidth + "px";
+        var textWrapper = document.getElementsByClassName('letters');
+        for(var i=0; i<textWrapper.length;i++) {
+            textWrapper[i].innerHTML = textWrapper[i].textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+        }
 
         anime.timeline()
             .add({
@@ -35,11 +41,15 @@ class Home extends React.Component {
                 delay={(el, index) => index * 240}
                 translateX='13rem'
                 scale={[.75, .9]}>
-                    <h1 class="home-text">
-                    <span class="text-wrapper">
-                        <span class="line line1"></span>
-                        <span class="letters">KYLE'S PORTFOLIO SITE</span>
-                        <span class="line line2"></span>
+                    <h1 className="home-text">
+                    <span className="text-wrapper">
+                        <span className="line line1"></span>
+                        <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center"}}>
+                            <span className="letters" ref={el => (this.container1 = el)}>KYLE'S </span>
+                            <span className="letters" ref={el => (this.container2 = el)}>PORTFOLIO </span>
+                            <span className="letters" ref={el => (this.container3 = el)}>SITE</span>
+                        </div>
+                        <span className="line line2"></span>
                     </span>
                     </h1>
                 </Anime>
